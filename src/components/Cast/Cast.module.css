@@ -1,0 +1,33 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    margin: -10px;
+    list-style: none;
+    
+  }
+  
+  .item {
+    padding: 10px;
+    border: 1px solid #8e8f99;
+    border-color: teal;
+    border-radius: 10px;
+    margin: 10px;
+    width: 150px;
+    margin-left: 20px;
+  }
+  
+  .img {
+    width: 150px;
+    height: 225px;
+  }
+  
+  .character {
+    margin-bottom: 0;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+   

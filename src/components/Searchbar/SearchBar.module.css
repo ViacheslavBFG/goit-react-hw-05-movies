@@ -1,0 +1,38 @@
+.input {
+    outline:none;
+      border: none;
+      padding: 8px;
+      border: 1px solid teal;
+      width: 250px;
+      margin-right: 10px;
+      border-radius: 10px;
+      font-size: 18px;
+     margin-left: 20px;
+  }
+  
+  .button {
+    padding: 8px;
+    width: 88px;
+    border: 1px solid #8e8f99;
+    border-radius: 10px;
+    border-color:teal;
+    background-color: #fff;
+    color: teal;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .button:hover,
+  .bbutton:focus {
+    background-color: teal;
+    color: #fff;
+    border-color: teal;
+  }
+  
+  .title {
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: teal;
+    padding-left: 20px;
+  }

@@ -1,0 +1,38 @@
+.navigation {
+    margin-bottom: 20px;
+      background-color: wheat;
+      border-bottom: 3px solid teal;
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      margin: 0;
+      padding: 10px 20px;
+  }
+  
+  .link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color .2s;
+  }
+  
+  .link:hover {
+    color: teal;
+    transform: scale(1.12);
+  }
+  
+  .active {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color .2s;
+  }
+  .lactive :hover {
+    color: teal;
+  }
+  
+  .link:not(:last-child) {
+    margin-right: 20px;
+  }
